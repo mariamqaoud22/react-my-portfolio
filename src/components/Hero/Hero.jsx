@@ -17,7 +17,7 @@ export default function Hero() {
   return  <>
   
   <div id='home'
-   className="
+   className=" h-screen flex flex-col justify-center items-center
    bg-bg text-text text-center py-16">
     <img src={HeroImage} alt='mariam' className=" mx-auto mt-12 mb-8 w-48 h-48 rounded-full object-cover transform 
         transition-transform duration-300 hover:scale-105 " />
